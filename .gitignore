@@ -1,0 +1,3 @@
+#忽略编译产生的文件
+cmake-build-debug/
+.idea/

@@ -32,7 +32,7 @@ int main(){
 }
 
 void print(int hour, int minute, int second){
-    if (hour < 10){
+    /*if (hour < 10){
         printf("0");
     }
     printf("%d:",hour);
@@ -45,6 +45,7 @@ void print(int hour, int minute, int second){
     if (second < 10){
         printf("0");
     }
-    printf("%d\n",second);
+    printf("%d\n",second);*/
+    printf("%02d:%02d:%02d\n", hour, minute, second);
 
 }

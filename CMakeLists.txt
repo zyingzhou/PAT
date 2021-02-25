@@ -18,7 +18,7 @@ add_executable(pat1022 ./C/pat1022.c)
 add_executable(pat1023 ./C/pat1023.c)
 add_executable(pat1026 ./C/pat1026.c)
 add_executable(pat1027 ./C/pat1027.c)
-add_executable(pat1028 ./C/pat1028.c)
+add_executable(pat1012 ./C/pat1012.c)
 
 # debug only
 add_executable(test1 tests/test.c)

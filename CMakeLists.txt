@@ -26,7 +26,10 @@ add_executable(pat1031 ./C/pat1031.c)
 add_executable(pat1036 ./C/pat1036.c)
 add_executable(pat1041 ./C/pat1041.c)
 add_executable(pat1046 ./C/pat1046.c)
+add_executable(pat1051 ./C/pat1051.c)
+add_executable(pat1056 ./C/pat1056.c)
 
+target_link_libraries(pat1051 m)
 
 # debug only
 add_executable(test1 tests/test.c)

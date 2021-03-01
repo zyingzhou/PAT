@@ -25,6 +25,7 @@ add_executable(pat1025 ./C/pat1025.c)
 add_executable(pat1031 ./C/pat1031.c)
 add_executable(pat1036 ./C/pat1036.c)
 add_executable(pat1041 ./C/pat1041.c)
+add_executable(pat1046 ./C/pat1046.c)
 
 
 # debug only

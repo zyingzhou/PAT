@@ -37,6 +37,9 @@ add_executable(pat1086 ./C/pat1086.c)
 add_executable(pat1091 ./C/pat1091.c)
 add_executable(pat1029 ./C/pat1029.c)
 add_executable(pat1028 ./C/pat1028.c)
+add_executable(pat1038 ./C/pat1038.c)
+add_executable(pat1003 ./C/pat1003.c)
+add_executable(pat1098 ./C/pat1098.c)
 
 target_link_libraries(pat1051 m)
 

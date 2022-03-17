@@ -1,7 +1,7 @@
 /**
 * pat1093
 * Author: zhiying
-* Date: 2022/1/13
+* Date: 2022/1/13 update 2022/03/17
 * Copyright (c) 2022 All rights reserved.
 */
 #include <stdio.h>
@@ -10,9 +10,7 @@
 
 void input_str(char *str);
 void do_unique(char *str);
-void str_joint(char *str1, char *str2);
 void str_trim(char *str, char ch);
-void test_str_trim();
 
 
 int main(){
@@ -27,7 +25,7 @@ int main(){
     do_unique(str1);
     do_unique(str2);
     // 字符串拼接
-    str_joint(str1, str2);
+    strcat(str1,str2);
     free(str2);
     // 再去重
     do_unique(str1);
@@ -39,35 +37,25 @@ int main(){
 }
 
 void do_unique(char *str){
-
+    int len = strlen(str);
     char *p = str;
-
-    while (*p != '\n'){
+    for (int i = 0; i < len; i++){
         char ch = *p;
-        char *tmp = p;
-        tmp++;
-        while (*tmp != '\n'){
-
-            if (ch == *tmp){
-                *tmp = '\0';
-            }
-            tmp ++;
-        }
         p++;
+        if(ch == '\n'){
+            continue;
+        }
+
+        char *pch;
+        pch = strchr(p, ch);
+        while (pch != NULL){
+            *pch = '\n';
+            pch++;
+            pch = strchr(pch, ch);
+        }
     }
-    str_trim(str, '\0');
-}
 
-void str_joint(char *str1, char *str2){
-    char *tmp = str1;
-
-    while(*tmp != '\n'){
-        tmp++;
-    }
-
-    while((*tmp++ = *str2++) != '\n');
-    *tmp = '\0';
-
+    str_trim(str, '\n');
 }
 
 void input_str(char *str){
@@ -86,10 +74,11 @@ void input_str(char *str){
 }
 
 void str_trim(char *str, char ch){
+    int len = strlen(str);
     char *head = str;
     char *p = str;
 
-    while(*p != '\n'){
+    for(int i = 0; i < len; i++){
 
         if (*p != ch){
             *head = *p;
@@ -97,12 +86,5 @@ void str_trim(char *str, char ch){
         }
         p++;
     }
-}
-
-void test_str_trim(){
-    char *str1 = "abcdaccca";
-
-    str_trim(str1, 'a');
-
-    printf("%s", str1);
+    *head = '\0';
 }

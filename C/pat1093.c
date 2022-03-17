@@ -11,6 +11,8 @@
 void input_str(char *str);
 void do_unique(char *str);
 void str_joint(char *str1, char *str2);
+void str_trim(char *str, char ch);
+void test_str_trim();
 
 
 int main(){
@@ -26,17 +28,18 @@ int main(){
     do_unique(str2);
     // 字符串拼接
     str_joint(str1, str2);
+    free(str2);
     // 再去重
     do_unique(str1);
     printf("%s", str1);
+//    test_str_trim();
     // 释放内存
     free(str1);
-    free(str2);
     return 0;
 }
 
 void do_unique(char *str){
-    char *head = str;
+
     char *p = str;
 
     while (*p != '\n'){
@@ -46,16 +49,13 @@ void do_unique(char *str){
         while (*tmp != '\n'){
 
             if (ch == *tmp){
-                *tmp = '\n';
-                tmp++;
-                str_joint(head, tmp);
-                tmp--;
-                continue;
+                *tmp = '\0';
             }
             tmp ++;
         }
         p++;
     }
+    str_trim(str, '\0');
 }
 
 void str_joint(char *str1, char *str2){
@@ -83,4 +83,26 @@ void input_str(char *str){
     }
     // 末尾加上'\n'
     *tmp = ch;
+}
+
+void str_trim(char *str, char ch){
+    char *head = str;
+    char *p = str;
+
+    while(*p != '\n'){
+
+        if (*p != ch){
+            *head = *p;
+            head++;
+        }
+        p++;
+    }
+}
+
+void test_str_trim(){
+    char *str1 = "abcdaccca";
+
+    str_trim(str1, 'a');
+
+    printf("%s", str1);
 }

@@ -1,15 +1,18 @@
 cmake_minimum_required(VERSION 3.15)
-project(PAT C)
+project(PAT C CXX)
 
 set(CMAKE_C_STANDARD 99)
+set(CMAKE_CXX_STANDARD 17)
 
 add_executable(pat1001 ./C/pat1001.c)
 add_executable(pat1002 ./C/pat1002.c)
 add_executable(pat1004 ./C/pat1004.c)
 add_executable(pat1006 ./C/pat1006.c)
+add_executable(pat1007 ./C/pat1007.c)
 add_executable(pat1008 ./C/pat1008.c)
 add_executable(pat1009 ./C/pat1009.c)
 add_executable(pat1011 ./C/pat1011.c)
+add_executable(pat1013 ./C/pat1013.c)
 add_executable(pat1014 ./C/pat1014.c)
 add_executable(pat1016 ./C/pat1016.c)
 add_executable(pat1018 ./C/pat1018.c)
@@ -46,6 +49,16 @@ add_executable(pat1100 ./C/pat1100.c)
 add_executable(pat1099 ./C/pat1099.c)
 
 target_link_libraries(pat1051 m)
+
+# cpp
+add_executable(pat1001_cxx ./C++/pat1001.cpp)
+add_executable(pat1003_cxx ./C++/pat1003.cpp)
+add_executable(pat1005 ./C++/pat1005.cpp)
+add_executable(pat1010_cxx ./C++/pat1010.cpp)
+add_executable(pat1015_cxx ./C++/pat1015.cpp)
+add_executable(pat1017_cxx ./C++/pat1017.cpp)
+add_executable(pat1030_cxx ./C++/pat1030.cpp)
+
 
 # debug only
 add_executable(test1 tests/test.c)

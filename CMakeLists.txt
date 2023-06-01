@@ -58,6 +58,7 @@ add_executable(pat1010_cxx ./C++/pat1010.cpp)
 add_executable(pat1015_cxx ./C++/pat1015.cpp)
 add_executable(pat1017_cxx ./C++/pat1017.cpp)
 add_executable(pat1030_cxx ./C++/pat1030.cpp)
+add_executable(pat1032_cxx ./C++/pat1032.cpp)
 
 
 # debug only

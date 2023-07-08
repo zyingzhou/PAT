@@ -47,6 +47,7 @@
 | 1098 | [岩洞施工](https://pintia.cn/problem-sets/994805260223102976/problems/1478633798962888704 "岩洞施工") | [C](/C/pat1098.c "C语言实现")                                                 | 2022.1.10 |
 | 1093 | [字符串A+B](https://pintia.cn/problem-sets/994805260223102976/problems/1071785884776722432 "字符串A+B") | [C](/C/pat1093.c "C语言实现")                                                 | 2022.1.15 | 
 | 1099 | [性感素数](https://pintia.cn/problem-sets/994805260223102976/problems/1478633879405998080 "性感素数") | [C](/C/pat1099.c "C语言实现")                                                 | 2022.3.17 |
+| 1100 | [校庆](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478633948431106048 "校庆") | [C++](/C++/pat1100.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1101 | [B是A的多少倍](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634052026146816 "B是A的多少倍") | [C++](/C++/pat1101.cpp "C++语言实现")                                                 | 2023.6.29 |
 | 1106 | [2019数列](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634404943273984 "2019数列") | [C++](/C++/pat1106.cpp "C++语言实现")                                                 | 2023.7.7 |
 | 1111 | [对称日](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699285882593280 "对称日") | [C++](/C++/pat1111.cpp "C++语言实现")                                                 | 2023.7.8 |

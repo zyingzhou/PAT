@@ -44,10 +44,11 @@
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |
 | 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864 "Wifi密码") | [C](/C/pat1076.c "C语言实现")                                                 | 2021.3.5 |
 | 1091 | [N-自守数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785664454127616 "N-自守数") | [C++](/C++/pat1091.cpp "C++语言实现")                                                 | 2023.7.8 |
+| 1092 | [最好吃的月饼](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785779399028736 "最好吃的月饼") | [C++](/C++/pat1092.cpp "C++语言实现")                                                 | 2023.7.9 |
+| 1093 | [字符串A+B](https://pintia.cn/problem-sets/994805260223102976/problems/1071785884776722432 "字符串A+B") | [C](/C/pat1093.c "C语言实现")                                                 | 2022.1.15 |
+| 1094 | [谷歌的招聘](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785997033074688 "谷歌的招聘") | [C++](/C++/pat1094.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1097 | [矩阵行平移](https://pintia.cn/problem-sets/994805260223102976/problems/1478633729396088832 "矩阵行平移") | [C](/C/pat1097.c "C语言实现")                                                 | 2022.1.11 |
 | 1098 | [岩洞施工](https://pintia.cn/problem-sets/994805260223102976/problems/1478633798962888704 "岩洞施工") | [C](/C/pat1098.c "C语言实现")                                                 | 2022.1.10 |
-| 1093 | [字符串A+B](https://pintia.cn/problem-sets/994805260223102976/problems/1071785884776722432 "字符串A+B") | [C](/C/pat1093.c "C语言实现")                                                 | 2022.1.15 | 
-| 1094 | [谷歌的招聘](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785997033074688 "谷歌的招聘") | [C++](/C++/pat1094.cpp "C++语言实现")                                                 | 2023.7.8 | 
 | 1099 | [性感素数](https://pintia.cn/problem-sets/994805260223102976/problems/1478633879405998080 "性感素数") | [C](/C/pat1099.c "C语言实现")                                                 | 2022.3.17 |
 | 1100 | [校庆](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478633948431106048 "校庆") | [C++](/C++/pat1100.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1101 | [B是A的多少倍](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634052026146816 "B是A的多少倍") | [C++](/C++/pat1101.cpp "C++语言实现")                                                 | 2023.6.29 |

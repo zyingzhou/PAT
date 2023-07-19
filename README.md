@@ -45,6 +45,7 @@
 | 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976 "图像过滤") | [C](/C/pat1066.c "C语言实现")                                                 | 2021.3.3 |
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |
 | 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864 "Wifi密码") | [C](/C/pat1076.c "C语言实现")                                                 | 2021.3.5 |
+| 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262018265088?type=7&page=0 "字符串压缩与解压") | [C++](/C++/pat1078.cpp "C++语言实现")                                                 | 2023.7.19 |
 | 1090 | [危险品装箱](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429484026175488 "危险品装箱") | [C++](/C++/pat1090.cpp "C++语言实现")                                                 | 2023.7.9 |
 | 1091 | [N-自守数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785664454127616 "N-自守数") | [C++](/C++/pat1091.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1092 | [最好吃的月饼](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785779399028736 "最好吃的月饼") | [C++](/C++/pat1092.cpp "C++语言实现")                                                 | 2023.7.9 |

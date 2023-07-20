@@ -42,6 +42,7 @@
 | 1057 | [数零壹](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805270914383872 "数零壹") | [C++](/C++/pat1057.cpp "C++语言实现")                                                 | 2023.7.1 |
 | 1059 | [C语言竞赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805269828059136 "C语言竞赛") | [C++](/C++/pat1059.cpp "C++语言实现")                                                 | 2023.7.17 |
 | 1061 | [判断题](https://pintia.cn/problem-sets/994805260223102976/problems/994805268817231872 "判断题") | [C](/C/pat1061.c "C语言实现")                                                 | 2021.3.2 |
+| 1063 | [计算谱半径](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267860930560?type=7&page=0 "计算谱半径") | [C++](/C++/pat1063.cpp "C++语言实现")                                                 | 2023.7.20 |
 | 1064 | [朋友数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267416334336?type=7&page=0 "朋友数") | [C++](/C++/pat1064.cpp "C++语言实现")                                                 | 2023.7.20 |
 | 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976 "图像过滤") | [C](/C/pat1066.c "C语言实现")                                                 | 2021.3.3 |
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |

@@ -44,6 +44,7 @@
 | 1061 | [判断题](https://pintia.cn/problem-sets/994805260223102976/problems/994805268817231872 "判断题") | [C](/C/pat1061.c "C语言实现")                                                 | 2021.3.2 |
 | 1063 | [计算谱半径](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267860930560?type=7&page=0 "计算谱半径") | [C++](/C++/pat1063.cpp "C++语言实现")                                                 | 2023.7.20 |
 | 1064 | [朋友数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267416334336?type=7&page=0 "朋友数") | [C++](/C++/pat1064.cpp "C++语言实现")                                                 | 2023.7.20 |
+| 1065 | [单身狗](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805266942377984?type=7&page=0 "单身狗") | [C++](/C++/pat1065.cpp "C++语言实现")                                                 | 2023.7.21 |
 | 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976 "图像过滤") | [C](/C/pat1066.c "C语言实现")                                                 | 2021.3.3 |
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |
 | 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864 "Wifi密码") | [C](/C/pat1076.c "C语言实现")                                                 | 2021.3.5 |

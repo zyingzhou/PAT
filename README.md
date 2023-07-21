@@ -47,6 +47,7 @@
 | 1064 | [朋友数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805267416334336?type=7&page=0 "朋友数") | [C++](/C++/pat1064.cpp "C++语言实现")                                                 | 2023.7.20 |
 | 1065 | [单身狗](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805266942377984?type=7&page=0 "单身狗") | [C++](/C++/pat1065.cpp "C++语言实现")                                                 | 2023.7.21 |
 | 1066 | [图像过滤](https://pintia.cn/problem-sets/994805260223102976/problems/994805266514558976 "图像过滤") | [C](/C/pat1066.c "C语言实现")                                                 | 2021.3.3 |
+| 1069 | [微博转发抽奖](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265159798784?type=7&page=0 "微博转发抽奖") | [C++](/C++/pat1069.cpp "C++语言实现")                                                 | 2023.7.21 |
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |
 | 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864 "Wifi密码") | [C](/C/pat1076.c "C语言实现")                                                 | 2021.3.5 |
 | 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262018265088?type=7&page=0 "字符串压缩与解压") | [C++](/C++/pat1078.cpp "C++语言实现")                                                 | 2023.7.19 |

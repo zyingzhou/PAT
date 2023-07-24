@@ -54,6 +54,7 @@
 | 1077 | [互评成绩计算](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262303477760?type=7&page=0 "互评成绩计算") | [C++](/C++/pat1077.cpp "C++语言实现")                                                 | 2023.7.22 |
 | 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262018265088?type=7&page=0 "字符串压缩与解压") | [C++](/C++/pat1078.cpp "C++语言实现")                                                 | 2023.7.19 |
 | 1079 | [延迟的回文数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805261754023936?type=7&page=0 "延迟的回文数") | [C++](/C++/pat1079.cpp "C++语言实现")                                                 | 2023.7.22 |
+| 1082 | [射击比赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260990660608?type=7&page=0 "射击比赛") | [C++](/C++/pat1082.cpp "C++语言实现")                                                 | 2023.7.24 |
 | 1088 | [三人行](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429286185074688?type=7&page=0 "三人行") | [C++](/C++/pat1088.cpp "C++语言实现")                                                 | 2023.7.23 |
 | 1090 | [危险品装箱](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429484026175488 "危险品装箱") | [C++](/C++/pat1090.cpp "C++语言实现")                                                 | 2023.7.9 |
 | 1091 | [N-自守数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1071785664454127616 "N-自守数") | [C++](/C++/pat1091.cpp "C++语言实现")                                                 | 2023.7.8 |

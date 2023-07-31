@@ -50,6 +50,7 @@
 | 1069 | [微博转发抽奖](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805265159798784?type=7&page=0 "微博转发抽奖") | [C++](/C++/pat1069.cpp "C++语言实现")                                                 | 2023.7.21 |
 | 1071 | [小赌怡情](https://pintia.cn/problem-sets/994805260223102976/problems/994805264312549376 "小赌怡情") | [C](/C/pat1071.c "C语言实现")                                                 | 2021.3.5 |
 | 1072 | [开学寄语](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805263964422144?type=7&page=0 "开学寄语") | [C++](/C++/pat1072.cpp "C++语言实现")                                                 | 2023.7.22 |
+| 1075 | [链表元素分类](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262953594880?type=7&page=0 "链表元素分类") | [C++](/C++/pat1075.cpp "C++语言实现")                                                 | 2023.7.31 |
 | 1076 | [Wifi密码](https://pintia.cn/problem-sets/994805260223102976/problems/994805262622244864 "Wifi密码") | [C](/C/pat1076.c "C语言实现")                                                 | 2021.3.5 |
 | 1077 | [互评成绩计算](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262303477760?type=7&page=0 "互评成绩计算") | [C++](/C++/pat1077.cpp "C++语言实现")                                                 | 2023.7.22 |
 | 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262018265088?type=7&page=0 "字符串压缩与解压") | [C++](/C++/pat1078.cpp "C++语言实现")                                                 | 2023.7.19 |

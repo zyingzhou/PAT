@@ -126,7 +126,7 @@ bool cmp(Node &node1, Node &node2){
     return node1.next == node2.address;
 }
 
-// test case
+// test case6
 //00003 4 2
 //00002 2 00001
 //00003 3 00002

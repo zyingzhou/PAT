@@ -8,6 +8,8 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <map>
+#include <algorithm>
 
 using namespace std;
 
@@ -18,45 +20,52 @@ typedef struct{
 }Node;
 
 int main() {
-    string first;
+    string head;
     int n,k;
-    cin >>first;
+    cin >>head;
     cin >>n>>k;
-    vector<Node > nodes;
+    map<string, Node >nodes;
 
     for (int i =0;i <n;i++){
         Node node;
         cin >>node.address>>node.data>>node.next;
-        // first node position
-        if (node.address == first){
-            nodes.insert(nodes.begin(),node);
-        }else{
-            nodes.push_back(node);
-        }
+        nodes[node.address] = node;
     }
 
-    for (int i = 1;i < nodes.size() -1;i++){
-        for (int j = i;j< nodes.size();j++){
-            if (nodes[i-1].next == nodes[j].address && j!= i){
-                swap(nodes[i],nodes[j]);
-                break;
+    // make the link ordered
+    vector<Node> result;
+    string next = head;
+    while (next != "-1"){
+        Node node = nodes[next];
+        result.push_back(node);
+        next = node.next;
+    }
+
+    // split into blocks
+    vector<vector<Node >> blocks;
+    vector<Node >block;
+    for (int i = 0;i <result.size();i++){
+        block.push_back(result[i]);
+        if ((i+1) % k == 0){
+            blocks.push_back(block);
+            block.clear();
+            continue;
+        }
+        if (i == result.size()-1){
+            blocks.push_back(block);
+            block.clear();
+        }
+    }
+    // reverse
+    reverse(blocks.begin(),blocks.end());
+    result.clear();
+    for (auto item: blocks){
+        if (!item.empty()){
+            for (auto v: item){
+                result.push_back(v);
             }
         }
     }
-    int block_cnt = n % k == 0 ? n / k : n / k + 1;
-    vector<Node >result;
-    for (int i = 0;i< block_cnt;i++){
-        vector<Node >block;
-        for (int j = 0;j < k;j++){
-            if ((i*k+j)<nodes.size()){
-                block.push_back(nodes[i*k + j]);
-            }else{
-                break;
-            }
-        }
-        result.insert(result.begin(),block.begin(),block.end());
-    }
-
     for (int i =0;i<result.size();i++){
         if (i != result.size()-1){
             result[i].next = result[i+1].address;

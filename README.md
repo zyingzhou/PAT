@@ -77,6 +77,7 @@
 | 1106 | [2019数列](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634404943273984 "2019数列") | [C++](/C++/pat1106.cpp "C++语言实现")                                                 | 2023.7.7 |
 | 1107 | [老鼠爱大米](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634461852217344?type=7&page=1 "老鼠爱大米") | [C++](/C++/pat1107.cpp "C++语言实现")                                                 | 2023.7.28 |
 | 1108 | [String复读机](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634527046828032?type=7&page=1 "String复读机") | [C++](/C++/pat1108.cpp "C++语言实现")                                                 | 2023.7.28 |
+| 1110 | [区块反转](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634682663895040?type=7&page=1 "区块反转") | [C++](/C++/pat1110.cpp "C++语言实现")                                                 | 2023.8.1 |
 | 1111 | [对称日](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699285882593280 "对称日") | [C++](/C++/pat1111.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1112 | [超标区间](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699370158747648?type=7&page=1 "超标区间") | [C++](/C++/pat1112.cpp "C++语言实现")                                                 | 2023.7.27 |
 | 1114 | [ 全素日](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699417143324672?type=7&page=1 " 全素日") | [C++](/C++/pat1114.cpp "C++语言实现")                                                 | 2023.7.26 |

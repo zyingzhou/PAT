@@ -59,6 +59,7 @@
 | 1082 | [射击比赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260990660608?type=7&page=0 "射击比赛") | [C++](/C++/pat1082.cpp "C++语言实现")                                                 | 2023.7.24 |
 | 1083 | [是否存在相等的差](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260780945408?type=7&page=0 "是否存在相等的差") | [C++](/C++/pat1083.cpp "C++语言实现")                                                 | 2023.7.24 |
 | 1085 | [PAT单位排行](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260353126400?type=7&page=0 "PAT单位排行") | [C++](/C++/pat1085.cpp "C++语言实现")                                                 | 2023.7.25 |
+| 1086 | [就不告诉你](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429065476579328?type=7&page=0 "就不告诉你") | [C++](/C++/pat1086.cpp "C++语言实现")                                                 | 2023.8.1 |
 | 1087 | [有多少不同的值](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429191091781632?type=7&page=0 "有多少不同的值") | [C++](/C++/pat1087.cpp "C++语言实现")                                                 | 2023.7.25 |
 | 1088 | [三人行](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429286185074688?type=7&page=0 "三人行") | [C++](/C++/pat1088.cpp "C++语言实现")                                                 | 2023.7.23 |
 | 1090 | [危险品装箱](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1038429484026175488 "危险品装箱") | [C++](/C++/pat1090.cpp "C++语言实现")                                                 | 2023.7.9 |

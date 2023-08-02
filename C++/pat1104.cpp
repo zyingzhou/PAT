@@ -16,6 +16,7 @@ int max_divisor(int num1,int num2);
 int max_divisor_v2(int num1,int num2);
 int max_divisor_v3(int num1,int num2);
 int max_divisor_v4(int num1,int num2);
+int max_divisor_v5(int num1,int num2);
 
 int main(){
     int x;
@@ -29,7 +30,7 @@ int main(){
             int a_sum = cal_sum(j);
             if(a_sum == m){
                 int b_sum = cal_sum(j+1);
-                int max = max_divisor_v4(a_sum,b_sum);
+                int max = max_divisor_v5(a_sum,b_sum);
                 if (is_prime(max) && max>2){
                     pair<int,int> p;
                     p.first = b_sum;
@@ -117,4 +118,14 @@ int max_divisor_v4(int num1,int num2){
     else if(num1 % 2 == 0)  return max_divisor_v4(num1 >> 1, num2);
     else if(num2 % 2 == 0) return max_divisor_v4(num1, num2 >> 1);
     else return max_divisor_v4(abs(num1 - num2), min(num1, num2));
+}
+
+int max_divisor_v5(int num1,int num2){
+    
+    while (num2!=0){
+        int tmp =num1%num2;
+        num1=num2;
+        num2=tmp;                  //这段是求最大公约数的算法
+    }
+    return num1;
 }

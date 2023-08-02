@@ -20,6 +20,7 @@
 | 1021 | [个位数统计](https://pintia.cn/problem-sets/994805260223102976/problems/994805300404535296 "个位数统计") | [C](/C/pat1021.c "C语言实现")                                                 | 2021 |
 | 1022 | [D进制的A+B](https://pintia.cn/problem-sets/994805260223102976/problems/994805299301433344 "D进制的A+B") | [C](/C/pat1022.c "C语言实现")                                                 | 2021 |
 | 1023 | [组个最小数](https://pintia.cn/problem-sets/994805260223102976/problems/994805298269634560 "组个最小数") | [C](/C/pat1023.c "C语言实现")                                                 | 2021 |
+| 1024 | [科学计数法](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805297229447168?type=7&page=0 "科学计数法") | [C++](/C++/pat1024_v2.cpp "C++语言实现")                                                 | 2023.8.2 |
 | 1025 | [反转链表](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805296180871168?type=7&page=0 "反转链表") | [C++](/C++/pat1025_v2.cpp "C++语言实现")                                                 | 2023.7.31 |
 | 1026 | [程序运行时间](https://pintia.cn/problem-sets/994805260223102976/problems/994805295203598336 "程序运行时间") | [C](/C/pat1026.c "C语言实现")                                                 | 2021.2.22 |
 | 1027 | [打印沙漏](https://pintia.cn/problem-sets/994805260223102976/problems/994805294251491328 "打印沙漏") | [C](/C/pat1027.c "C语言实现")                                                 | 2021.2.23 |

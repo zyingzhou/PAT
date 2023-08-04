@@ -10,6 +10,7 @@
 #include <string>
 #include <cstring>
 #include <cstdlib>
+#include <algorithm>
 
 using namespace std;
 bool is_principal(vector<int> &vec, int idx);
@@ -20,49 +21,44 @@ int main(){
     int n = 0;
     cin >>n;
     vector<int> vec;
-    vector<int> vec1;
+    vector<pair<int,int>> vec1;
     int max = 0;
     for (int i = 0;i <n;i ++){
         int num;
         cin >>num;
-        if (num >max){
-            max = num;
-            vec1.push_back(i);
-        }
         vec.push_back(num);
-        if (vec1.size() != 0){
-            for (int m =0;m<vec1.size();m++){
-                if (vec[vec1[m]] > num){
-                    vec1.erase(vec1.begin()+m);
-                    m--;
-                }
+        if (num >max){
+            pair<int,int> p;
+            p.first = i;
+            p.second = num;
+            max = num;
+            vec1.push_back(p);
+        }
+
+    }
+    for (int i = 0;i <vec1.size();i++){
+        vector<int> tmp(vec.begin(),vec.end());
+        if (vec1[i].first < vec.size()-2){
+//            vector<int> tmp(vec.begin()+vec1[i].first+1,vec.end());
+            sort((tmp.begin()+vec1[i].first+1),tmp.end());
+            if (vec1[i].second > tmp[vec1[i].first+1]){
+                vec1.erase(vec1.begin()+i);
+                i--;
             }
+            continue;
+        }
+        if (vec1[i].first == vec.size()-2){
+            if (vec1[i].second > tmp[vec1[i].first+1]){
+                vec1.erase(vec1.begin()+i);
+                i--;
+            }
+
         }
     }
-    int cnt = 0;
-    vector<int> result;
-//    for (int j = 0;j < vec1.size();j++){
-//        if(is_principal(vec1,j)){
-//            cnt++;
-//            result.push_back(vec[j]);
-//        }
-//    }
-//    for (auto item:vec1){
-//        if(is_principal_v2(vec,item)){
-//            cnt++;
-//            result.push_back(vec[item]);
-//        }
-//    }
-//    cout <<cnt<<endl;
+
     cout <<vec1.size()<<endl;
-//    for (int i = 0;i < result.size();i++){
-//        cout<<result[i];
-//        if (i != result.size() -1){
-//            cout <<' ';
-//        }
-//    }
     for (int i = 0;i < vec1.size();i++){
-        cout<<vec[vec1[i]];
+        cout<<vec1[i].second;
         if (i != vec1.size() -1){
             cout <<' ';
         }

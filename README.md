@@ -36,6 +36,7 @@
 | 1039 | [到底买不买](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805283241443328 "到底买不买") | [C++](/C++/pat1039.cpp "C++语言实现")                                                 | 2023.6.25 |
 | 1041 | [考试座位号](https://pintia.cn/problem-sets/994805260223102976/problems/994805281567916032 "考试座位号") | [C](/C/pat1041.c "C语言实现")                                                 | 2021.2.28 |
 | 1042 | [字符统计](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805280817135616 "字符统计") | [C++](/C++/pat1042.cpp "C++语言实现")                                                 | 2023.6.26 |
+| 1043 | [输出PATest](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805280074743808?type=7&page=0 "输出PATest") | [C++](/C++/pat1043.cpp "C++语言实现")                                                 | 2023.8.4 |
 | 1044 | [火星数字](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805279328157696?type=7&page=0 "火星数字") | [C++](/C++/pat1044.cpp "C++语言实现")                                                 | 2023.8.4 |
 | 1046 | [划拳](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384 "划拳") | [C](/C/pat1046.c "C语言实现")                                                 | 2021.3.1 |
 | 1047 | [编程团体赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805277163896832 "编程团体赛") | [C++](/C++/pat1047.cpp "C++语言实现")                                                 | 2023.6.27 |

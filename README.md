@@ -41,6 +41,7 @@
 | 1046 | [划拳](https://pintia.cn/problem-sets/994805260223102976/problems/994805277847568384 "划拳") | [C](/C/pat1046.c "C语言实现")                                                 | 2021.3.1 |
 | 1047 | [编程团体赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805277163896832 "编程团体赛") | [C++](/C++/pat1047.cpp "C++语言实现")                                                 | 2023.6.27 |
 | 1048 | [数字加密](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805276438282240 "数字加密") | [C++](/C++/pat1048.cpp "C++语言实现")                                                 | 2023.6.26 |
+| 1053 | [住房空置率](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805273284165632?type=7&page=0 "住房空置率") | [C++](/C++/pat1053.cpp "C++语言实现")                                                 | 2023.8.4 |
 | 1055 | [集体照](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805272021680128 "集体照") | [C++](/C++/pat1055.cpp "C++语言实现")                                                 | 2023.7.12 |
 | 1056 | [组合数的和](https://pintia.cn/problem-sets/994805260223102976/problems/994805271455449088 "组合数的和") | [C](/C/pat1056.c "C语言实现")                                                 | 2021.3.1 |
 | 1057 | [数零壹](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805270914383872 "数零壹") | [C++](/C++/pat1057.cpp "C++语言实现")                                                 | 2023.7.1 |

@@ -44,15 +44,19 @@ int main() {
     }
     reverse(hi.begin(),hi.end());
     int head=0;
-    for (int j =0;j<hi.size();j++){
-        if (hi[j] != '0'){
-            head = j;
+    for (;head<hi.size();head++){
+        if (hi[head] != '0'){
             break;
         }
     }
-    for (;head < hi.size();head++){
-        cout << hi[head];
+    if (head == hi.size()){
+        cout <<'0';
+    } else{
+        for (;head < hi.size();head++){
+            cout << hi[head];
+        }
     }
+
     cout <<endl;
     return 0;
 }

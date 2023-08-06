@@ -85,4 +85,5 @@
 | 1110 | [区块反转](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1478634682663895040?type=7&page=1 "区块反转") | [C++](/C++/pat1110.cpp "C++语言实现")                                                 | 2023.8.1 |
 | 1111 | [对称日](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699285882593280 "对称日") | [C++](/C++/pat1111.cpp "C++语言实现")                                                 | 2023.7.8 |
 | 1112 | [超标区间](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699370158747648?type=7&page=1 "超标区间") | [C++](/C++/pat1112.cpp "C++语言实现")                                                 | 2023.7.27 |
+| 1113 | [钱串子的加法](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699394422779904?type=7&page=1 "钱串子的加法") | [C++](/C++/pat1113.cpp "C++语言实现")                                                 | 2023.8.6 |
 | 1114 | [ 全素日](https://pintia.cn/problem-sets/994805260223102976/exam/problems/1621699417143324672?type=7&page=1 " 全素日") | [C++](/C++/pat1114.cpp "C++语言实现")                                                 | 2023.7.26 |

@@ -61,6 +61,7 @@
 | 1077 | [互评成绩计算](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262303477760?type=7&page=0 "互评成绩计算") | [C++](/C++/pat1077.cpp "C++语言实现")                                                 | 2023.7.22 |
 | 1078 | [字符串压缩与解压](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805262018265088?type=7&page=0 "字符串压缩与解压") | [C++](/C++/pat1078.cpp "C++语言实现")                                                 | 2023.7.19 |
 | 1079 | [延迟的回文数](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805261754023936?type=7&page=0 "延迟的回文数") | [C++](/C++/pat1079.cpp "C++语言实现")                                                 | 2023.7.22 |
+| 1081 | [检查密码](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805261217153024?type=7&page=0 "检查密码") | [C++](/C++/pat1081.cpp "C++语言实现")                                                 | 2023.8.8 |
 | 1082 | [射击比赛](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260990660608?type=7&page=0 "射击比赛") | [C++](/C++/pat1082.cpp "C++语言实现")                                                 | 2023.7.24 |
 | 1083 | [是否存在相等的差](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260780945408?type=7&page=0 "是否存在相等的差") | [C++](/C++/pat1083.cpp "C++语言实现")                                                 | 2023.7.24 |
 | 1085 | [PAT单位排行](https://pintia.cn/problem-sets/994805260223102976/exam/problems/994805260353126400?type=7&page=0 "PAT单位排行") | [C++](/C++/pat1085.cpp "C++语言实现")                                                 | 2023.7.25 |
